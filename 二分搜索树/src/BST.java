@@ -1,4 +1,4 @@
-//二分搜索树(数据具有可比性)
+// 二分搜索树(数据具有可比性)
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -6,8 +6,8 @@ import java.util.Stack;
 
 public class BST<E extends Comparable<E>> {
     private class Node {
-        public E e;
-        public Node left, right;
+        public E e;  // 当前节点的值
+        public Node left, right; // 左右节点
 
         public Node(E e) {
             this.e = e;
@@ -17,8 +17,8 @@ public class BST<E extends Comparable<E>> {
 
     }
 
-    private Node root; //根节点
-    private int size; //树中的元素个数
+    private Node root; // 根节点
+    private int size; // 树中的元素个数
 
     public BST() {
         root = null;
@@ -33,18 +33,18 @@ public class BST<E extends Comparable<E>> {
         return size == 0;
     }
 
-    //添加（递归算法）
+    // 添加（递归算法）
     public void add(E e) {
         root = add(root, e);
     }
 
-    //递归的方法（1.递归终止条件的判断，2.递归调用）
+    // 递归的方法（1.递归终止条件的判断，2.递归调用）
     private Node add(Node node, E e) {
-        //递归终止条件的判断
+        // 递归终止条件的判断
         if (node == null) {
-            return new Node(e); //如果根节点是空的话，直接返回一个新的空节点（引用类型）
+            return new Node(e); //如果根节点是空的话，直接返回一个新的空节点
         }
-        //递归调用
+        // 递归调用
         if (e.compareTo(node.e) < 0) {
             node.left = add(node.left, e);
         } else if (e.compareTo(node.e) > 0) {
@@ -55,17 +55,17 @@ public class BST<E extends Comparable<E>> {
 
     }
 
-    //查询
+    // 查询
     public boolean contains(E e) {
         return contains(root, e);
     }
 
     private boolean contains(Node node, E e) {
-        if (node == null) { //二分搜索树直接为空
+        if (node == null) { // 二分搜索树直接为空
             return false;
         }
         //递归终止
-        if (e.compareTo(node.e) == 0) { //做减法
+        if (e.compareTo(node.e) == 0) { // 做减法
             return true;
         } else if (e.compareTo(node.e) < 0) {
             return contains(node.left, e);
@@ -74,7 +74,7 @@ public class BST<E extends Comparable<E>> {
         }
     }
 
-    //前序遍历
+    // 前序遍历
     public void preOrder() {
         preOrder(root);
     }
@@ -83,12 +83,12 @@ public class BST<E extends Comparable<E>> {
         if (node == null) {
             return;
         }
-        System.out.println(node.e); //输出表示已经访问了
+        System.out.println(node.e); // 输出表示已经访问了
         preOrder(node.left);
         preOrder(node.right);
     }
 
-    //中序遍历(从小到大的顺序)
+    // 中序遍历(从小到大的顺序)
     public void inOrder() {
         inOrder(root);
     }
@@ -98,11 +98,11 @@ public class BST<E extends Comparable<E>> {
             return;
         }
         preOrder(node.left);
-        System.out.println(node.e); //输出表示已经访问了
+        System.out.println(node.e); // 输出表示已经访问了
         preOrder(node.right);
     }
 
-    //后序遍历
+    // 后序遍历
     public void postOrder() {
         postOrder(root);
     }
@@ -113,10 +113,10 @@ public class BST<E extends Comparable<E>> {
         }
         preOrder(node.left);
         preOrder(node.right);
-        System.out.println(node.e); //输出表示已经访问了
+        System.out.println(node.e); // 输出表示已经访问了
     }
 
-    //前序遍历的非递归写法
+    // 前序遍历的非递归写法
 
     public void preOrderNR() {
         Stack<Node> stack = new Stack<>();
@@ -134,7 +134,7 @@ public class BST<E extends Comparable<E>> {
 
     }
 
-    //层序遍历（广度优先遍历）
+    // 层序遍历（广度优先遍历）
     public void levalOrder() {
         Queue<Node> q = new LinkedList<>();
         q.add(root);
@@ -151,7 +151,7 @@ public class BST<E extends Comparable<E>> {
 
     }
 
-    //获得最小值（二分搜索树）
+    // 获得最小值（二分搜索树）
     public E minmum() {
         if (size == 0) {
             throw new IllegalArgumentException("二分搜索树为空");
@@ -160,16 +160,16 @@ public class BST<E extends Comparable<E>> {
     }
 
     private Node minmum(Node node) {
-        if (node.left == null) {  //递归终止条件的判断
+        if (node.left == null) {  // 递归终止条件的判断
             return node;
         }
 
-        //递归调用
+        // 递归调用
 
         return minmum(node.left);
     }
 
-    //获得二叉树的最大值
+    // 获得二叉树的最大值
     public E maxmum() {
         if (size == 0) {
             throw new IllegalArgumentException("二分搜索树为空");
@@ -178,16 +178,16 @@ public class BST<E extends Comparable<E>> {
     }
 
     private Node maxmum(Node node) {
-        if (node.right == null) {  //递归终止条件的判断
+        if (node.right == null) {  // 递归终止条件的判断
             return node;
         }
 
-        //递归调用
+        // 递归调用
         return minmum(node.right);
     }
 
 
-    //删除二分搜索树的最小值(返回最小值)
+    // 删除二分搜索树的最小值(返回最小值)
 
     public E removeMin() {
         E ret = minmum();
@@ -262,8 +262,8 @@ public class BST<E extends Comparable<E>> {
                 return leftNode;
             }
 
-            //删除的节点左右都不为空（待删除节点的右子树的最小节点作为新的根节点，或者左子树的最大节点作为新的根节点）。
-            Node n = minmum(node.right);
+            //删除的节点左右都不为空（待删除节点的右子树的最小节点作为新的根节点，或者左子树的最大节点作为新的根节点,选择是随机的）。
+            Node n = minmum(node.right);  // Node n = maxmun(node.left);
             n.right = removeMin(node.right);
             n.left = node.left;
             node.left = node.right = null;
