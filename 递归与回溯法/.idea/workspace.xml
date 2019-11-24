@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e79ee81-2739-49d8-a382-4e51eb23ecb3" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solution40.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution40.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,14 +38,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2009" />
-          <entry key="txt" value="14" />
+          <entry key="java" value="2040" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2009" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="2040" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -105,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution40.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+            <state relative-caret-position="317">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574597287093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574597545109" />
     <property name="last_opened_file_path" value="F:/LeetCode题解" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -211,7 +210,7 @@
       <workItem from="1572795328063" duration="2182000" />
       <workItem from="1574329346629" duration="4257000" />
       <workItem from="1574512837207" duration="3731000" />
-      <workItem from="1574592286999" duration="4944000" />
+      <workItem from="1574592286999" duration="5201000" />
     </task>
     <task id="LOCAL-00001" summary="更新题目">
       <created>1574331876118</created>
@@ -255,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574516736812</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新第40,39题">
+      <created>1574597342577</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574597342577</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17276000" />
+    <option name="totallyTimeSpent" value="17533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -307,7 +313,8 @@
     <MESSAGE value="更新46题" />
     <MESSAGE value="更新39题" />
     <MESSAGE value="更新77题" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新77题" />
+    <MESSAGE value="更新第40,39题" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新第40,39题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/递归与回溯法.iml">
@@ -360,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution40.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        <state relative-caret-position="317">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

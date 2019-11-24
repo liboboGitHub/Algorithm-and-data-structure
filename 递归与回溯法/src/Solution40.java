@@ -26,6 +26,9 @@ class Solution40 {
 
         }
         for (int i = start; i < candidates.length; i++) {  // 数组中的每一个元素都会作为根节点作为一种情况进行遍历
+            if (target - candidates[i] < 0) {  // 剪枝操作
+                break;
+            }
             if (i > start && candidates[i] == candidates[i - 1]) {
                 continue;
             }
