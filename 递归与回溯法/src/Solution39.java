@@ -12,8 +12,6 @@ class Solution39 {
         ArrayList<Integer> list = new ArrayList<>();
         generationCombinationSum(0, candidates, target, list);
         return lists;
-
-
     }
 
     private void generationCombinationSum(int start, int[] candidates, int target, List<Integer> list) {
