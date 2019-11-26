@@ -18,8 +18,6 @@ class Solution78 {
             lists.add(new ArrayList<>(list));
         }
         for (int i = start; i < nums.length; i++) {
-
-
             System.out.println(lists);
             list.add(nums[i]);
             generationSubsets(nums, list, i + 1);

@@ -1,10 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
 
-/// 17. Letter Combinations of a Phone Number
-/// https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
-/// 时间复杂度: O(2^len(s))
-/// 空间复杂度: O(len(s))
 class Solution17 {
 
     private String letterMap[] = {
