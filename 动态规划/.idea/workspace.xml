@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="862f48fd-0472-4ce5-bd8d-ab672efba95d" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fibonacci1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fibonacci2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fibonacci3.java" afterDir="false" />
+    <list default="true" id="862f48fd-0472-4ce5-bd8d-ab672efba95d" name="默认" comment="动态规划初级">
+      <change afterPath="$PROJECT_DIR$/src/Solution70.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../递归与回溯法/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../递归与回溯法/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,41 +16,45 @@
     <session id="507373633">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1055" />
+          <entry key="java" value="1540" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1055" />
+          <entry key="JAVA" value="1540" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fibonacci1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="176">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -63,16 +63,25 @@
         <entry file="file://$PROJECT_DIR$/src/Fibonacci2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Fibonacci3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Fibonacci3.java">
+        <entry file="file://$PROJECT_DIR$/src/Solution70.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -95,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/Fibonacci1.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci2.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci3.java" />
+        <option value="$PROJECT_DIR$/src/Solution70.java" />
       </list>
     </option>
   </component>
@@ -116,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -134,12 +143,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575206735044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575271882727" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,29 +213,37 @@
       <option name="presentableId" value="Default" />
       <updated>1571539934477</updated>
       <workItem from="1571539939598" duration="23000" />
-      <workItem from="1575200736592" duration="4663000" />
+      <workItem from="1575200736592" duration="4754000" />
+      <workItem from="1575206963342" duration="499000" />
+      <workItem from="1575270047295" duration="1818000" />
     </task>
+    <task id="LOCAL-00001" summary="动态规划初级">
+      <created>1575206758090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575206758090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4686000" />
+    <option name="totallyTimeSpent" value="7094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="调试" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,6 +252,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="调试" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,25 +271,36 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="动态规划初级" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划初级" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Fibonacci1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="176">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fibonacci2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fibonacci3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution70.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
