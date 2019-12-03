@@ -13,6 +13,7 @@ public class Main {
         double c = 3.1415926;
         System.out.println(((Double)c).hashCode());
 
+
         String d = "imooc";
         System.out.println(d.hashCode());
 
