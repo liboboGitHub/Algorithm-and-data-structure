@@ -31,5 +31,6 @@ public class Main {
 
         Student student2 = new Student(3, 2, "Bobo", "Liu");
         System.out.println(student2.hashCode());
+        System.out.println(student.hashCode() == student2.hashCode());
     }
 }
