@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862f48fd-0472-4ce5-bd8d-ab672efba95d" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solution337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution337_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/knapsack01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution337_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution337_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,24 +31,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5899" />
-          <entry key="txt" value="33" />
+          <entry key="java" value="6417" />
+          <entry key="txt" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5899" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="JAVA" value="6417" />
+          <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
     </session>
@@ -85,15 +85,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution337_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="242">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#193#194#0" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/knapsack01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/Solution198.java" />
         <option value="$PROJECT_DIR$/src/Solution337.java" />
         <option value="$PROJECT_DIR$/src/Solution337_2.java" />
+        <option value="$PROJECT_DIR$/src/knapsack01.java" />
       </list>
     </option>
   </component>
@@ -172,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575768828061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575878709021" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../哈希表" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -254,7 +266,7 @@
       <workItem from="1575649765774" duration="383000" />
       <workItem from="1575729425081" duration="4899000" />
       <workItem from="1575763311685" duration="6016000" />
-      <workItem from="1575874256554" duration="353000" />
+      <workItem from="1575874256554" duration="4390000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划初级">
       <created>1575206758090</created>
@@ -305,11 +317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575734727023</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="动态规划LeetCode337号题">
+      <created>1575874651327</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575874651327</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41818000" />
+    <option name="totallyTimeSpent" value="45855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -391,7 +410,8 @@
     <MESSAGE value="动态规划LeetCode第343题" />
     <MESSAGE value="动态规划LeetCode第198题" />
     <MESSAGE value="动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
+    <MESSAGE value="动态规划LeetCode337号题" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划LeetCode337号题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Fibonacci1.java">
@@ -470,12 +490,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution337_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="242">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#193#194#0" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knapsack01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
