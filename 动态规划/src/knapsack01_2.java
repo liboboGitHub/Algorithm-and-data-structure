@@ -8,7 +8,7 @@ public class knapsack01_2 {
             return 0;
         }
         int n = wight.length;
-        int[][] memo = new int[n][Capacity + 1];
+        int[][] memo = new int[2][Capacity + 1];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < Capacity + 1; j++) {
                 memo[i][j] = -1;
@@ -25,15 +25,15 @@ public class knapsack01_2 {
         // 自底向上
         for (int i = 1; i < n; i++) {
             for (int j = 0; j <= Capacity; j++) {
-                memo[i][j] = memo[i - 1][j];  // 第一种策略，最后一个物品不放入背包
+                memo[i % 2][j] = memo[(i - 1) % 2][j];  // 第一种策略，最后一个物品不放入背包
                 if (wight[i] <= j) {
-                    memo[i][j] = Math.max(memo[i][j], value[i] + memo[i - 1][j - wight[i]]);
+                    memo[i % 2][j] = Math.max(memo[i % 2][j], value[i] + memo[(i - 1) % 2][j - wight[i]]);
                 }
 
             }
 
         }
-        return memo[n - 1][Capacity];
+        return memo[(n - 1) % 2][Capacity];
 
     }
 }
