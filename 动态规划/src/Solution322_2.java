@@ -17,6 +17,8 @@ public class Solution322_2 {
                 }
             }
         }
+
+
         return dp[amount] > amount ? -1 : dp[amount];
 
     }

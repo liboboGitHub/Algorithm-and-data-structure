@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862f48fd-0472-4ce5-bd8d-ab672efba95d" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solution322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution322_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution416DP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution416_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/knapsack01_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knapsack01_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution322_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution322_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8376" />
-          <entry key="txt" value="76" />
+          <entry key="java" value="8378" />
+          <entry key="txt" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8376" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="JAVA" value="8378" />
+          <entry key="PLAIN_TEXT" value="82" />
         </counts>
       </usages-collector>
     </session>
@@ -80,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution322_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+            <state relative-caret-position="440">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -166,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576383958523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576384005162" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../哈希表" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -249,7 +244,7 @@
       <workItem from="1575729425081" duration="4899000" />
       <workItem from="1575763311685" duration="6016000" />
       <workItem from="1575874256554" duration="16597000" />
-      <workItem from="1576370006804" duration="4573000" />
+      <workItem from="1576370006804" duration="4622000" />
     </task>
     <task id="LOCAL-00001" summary="动态规划初级">
       <created>1575206758090</created>
@@ -321,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575881402304</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="动态规划和记忆化搜素解决零钱背包问题">
+      <created>1576383998741</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576383998741</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62635000" />
+    <option name="totallyTimeSpent" value="62684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -379,7 +381,8 @@
     <MESSAGE value="动态规划LeetCode337号题" />
     <MESSAGE value="动态规划0-1背包问题" />
     <MESSAGE value="动态规划和记忆化搜素解决 0-1背包问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划和记忆化搜素解决 0-1背包问题" />
+    <MESSAGE value="动态规划和记忆化搜素解决零钱背包问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划和记忆化搜素解决零钱背包问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Fibonacci1.java">
@@ -514,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution322_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        <state relative-caret-position="440">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
