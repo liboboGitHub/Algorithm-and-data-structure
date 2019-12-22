@@ -32,7 +32,7 @@ public class DenseGraph implements Graph {
     public void addEdge(int v, int w) {
         assert v >= 0 && v < n;
         assert w >= 0 && w < n;
-        if (hasEdge(v, w)) {  // 先验证这两个节点之间是否有变
+        if (hasEdge(v, w)) {  // 先验证这两个节点之间是否有边
             return;
         }
         g[v][w] = true;
@@ -65,7 +65,7 @@ public class DenseGraph implements Graph {
     }
 
     // 返回图中一个顶点的所有邻边
-    // 由于java使用引用机制，返回一个Vector不会带来额外开销,
+    // 由于Java使用引用机制，返回一个Vector不会带来额外开销,
     public Iterable<Integer> adj(int v) {
         assert v >= 0 && v < n;
         Vector<Integer> adjV = new Vector<Integer>();

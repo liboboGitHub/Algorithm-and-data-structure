@@ -10,9 +10,8 @@ public class ShortestPath {
     private int[] from;         // 记录路径, from[i]表示查找的路径上i的上一个节点
     private int[] ord;          // 记录路径中节点的次序。ord[i]表示i节点在路径中的次序
 
-    // 构造函数, 寻路算法, 寻找图graph从s点(起始点）到其他点的路径
+    // 寻找图graph从s点(起始点）到其他点的路径的最短路径
     public ShortestPath(Graph graph, int s) {
-        // 算法初始化
         G = graph;
         assert s >= 0 && s < G.V();
 
@@ -85,7 +84,7 @@ public class ShortestPath {
 
     /*
      查看从s点到w点的最短路径长度
-     若从s到w不可达，返回-18
+     若从s到w不可达，返回-1
      */
     public int length(int w) {
         assert w >= 0 && w < G.V();

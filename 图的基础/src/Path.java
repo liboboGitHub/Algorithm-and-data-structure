@@ -9,13 +9,20 @@ public class Path {
     private int[] from;         // 记录路径, from[i]表示查找的路径上i的上一个节点
 
     // 图的深度优先遍历
+//    private void dfs(int v) {
+//        visited[v] = true;
+//        for (int i : G.adj(v))
+//            if (!visited[i]) {
+//                from[i] = v;
+//                dfs(i);
+//            }
+//    }
     private void dfs(int v) {
         visited[v] = true;
-        for (int i : G.adj(v))
-            if (!visited[i]) {
-                from[i] = v;
-                dfs(i);
-            }
+        for (int i : G.adj(v)) {
+            from[i] = v;
+            dfs(i);
+        }
     }
 
     // 构造函数, 寻路算法, 寻找图graph从s点到其他点的路径
