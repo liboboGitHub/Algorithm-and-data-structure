@@ -14,7 +14,7 @@ public class QuickSort {
     }
 
     private static void sort(Comparable[] arr, int l, int r) {
-        // 优化1
+        // 优化1：数组元素个数小于15的时候就用插入排序
         if (r - l <= 15) {
             InsertionSort.sort(arr, l, r);
             return;
@@ -34,8 +34,8 @@ public class QuickSort {
     // 对arr[l...r]部分进行partition(切分)操作
     // 返回p, 使得arr[l...p-1] < arr[p] ; arr[p+1...r] > arr[p]
     private static int partition(Comparable[] arr, int l, int r) {
-        swap(arr, l, (int) (Math.random() * (r - l + 1)) + l);
-        Comparable v = arr[l]; // 随机选择一个切分元素
+        swap(arr, l, (int) (Math.random() * (r - l + 1)) + l);      // 随机选择一个切分元素
+        Comparable v = arr[l];
         int j = l; // arr[l+1...j] < v ; arr[j+1...i) > v
         for (int i = l + 1; i <= r; i++) {
             if (arr[i].compareTo(v) < 0) {

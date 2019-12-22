@@ -29,9 +29,7 @@ public class QuickSort3Ways {
                 i++;
             }
         }
-
         swap(arr, l, lt);
-
         sort(arr, l, lt - 1);
         sort(arr, gt, r);
     }

@@ -33,10 +33,13 @@ public class ShortestPath {
         while (!q.isEmpty()) {
             int v = q.remove();
             for (int i : G.adj(v)) {
-                q.add(i);
-                visited[i] = true;
-                from[i] = v;
-                ord[i] = ord[v] + 1;
+                if (!visited[i]) {
+                    q.add(i);
+                    visited[i] = true;
+                    from[i] = v;
+                    ord[i] = ord[v] + 1;
+                }
+
             }
         }
     }

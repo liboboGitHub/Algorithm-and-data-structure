@@ -4,6 +4,7 @@
  *
  * */
 
+
 public class MergeSort {
     // 实现方法：递归
     public static void sort(Comparable[] arr, int n) {
