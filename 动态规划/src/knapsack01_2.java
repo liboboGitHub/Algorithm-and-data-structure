@@ -13,7 +13,6 @@ public class knapsack01_2 {
             for (int j = 0; j < Capacity + 1; j++) {
                 memo[i][j] = -1;
             }
-
         }
         assert (wight.length == value.length);
 
